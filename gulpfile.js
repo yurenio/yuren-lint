@@ -27,7 +27,7 @@ gulp.task('css', () => {
 gulp.task('js', () => {
     return es.concat(
         gulp.src('./node_modules/jquery/dist/jquery.js')
-        .pipe(gulp.dest('./dest/')),
+            .pipe(gulp.dest('./dest/')),
         gulp.src('./src/coffee/*.coffee')
             // CoffeeLint
             .pipe(coffeelint())
