@@ -1,6 +1,6 @@
 {
   "name": "yuren-fe",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Yuren FrontEnd Project Template",
   "main": "index.js",
   "scripts": {
