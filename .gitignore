@@ -114,4 +114,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# 无用的生成文件
+package-lock.json
 dest/
