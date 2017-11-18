@@ -20,7 +20,7 @@ gulp.task('css', () => {
             .pipe(less())
             // minify CSS
             .pipe(cleanCSS())
-            .pipe(gulp.dest('./dest/')),
+            .pipe(gulp.dest('./dest/'))
     )
 })
 
