@@ -1,0 +1,170 @@
+/*
+ * https://github.com/lesshint/lesshint/blob/master/lib/linters/README.md
+ */
+{
+    // 所有属性选择器的值必须使用引号
+    "attributeQuotes": {
+        "severity": "error" // 设置报警等级为 "error"，下同
+    },
+    // 没有边框时，应使用 border: 0;
+    "borderZero": {
+        "style": "zero",
+        "severity": "error"
+    },
+    // 可以直接使用十六进制色值，不必全部使用变量
+    "colorVariables": false,
+    // 不限制单行注释（`//`）和多行注释（`/* ... */`）的使用
+    "comment": false,
+    // 属性值为小数时，不必在小数点前添加前导 0，如 `.5px` 而不是 `0.5px`
+    // 属性值为整数时，不必添加小数部分，如 `1px` 而不是 `1.0px`
+    "decimalZero": [
+        "none", {
+            "severity": "error"
+        }
+    ],
+    // 样式块不限制嵌套深度
+    "depthLevel": false,
+    // 不应当对同一属性重复赋值
+    "duplicateProperty": {
+        "severity": "error"
+    },
+    // 不应当存在空样式块
+    "emptyRule": {
+        "severity": "error"
+    },
+    // 文件末尾应有空行
+    "finalNewline": {
+        "severity": "error"
+    },
+    // 十六进制色值使用 6 位格式
+    "hexLength": {
+        "style": "long",
+        "severity": "error"
+    },
+    // 十六进制色值使用大写
+    "hexNotation": {
+        "style": "uppercase",
+        "severity": "error"
+    },
+    // 检查十六进制色值合法性
+    "hexValidation": {
+        "severity": "error"
+    },
+    // 允许使用 id 选择器
+    "idSelector": false,
+    // 允许使用 !important
+    "importantRule": false,
+    // @import 时不使用后缀名和前缀下划线
+    "importPath": {
+        "filenameExtension": false,
+        "leadingUnderscore": false,
+        "severity": "error"
+    },
+    // 限制每行长度不超过 80 字符
+    "maxCharPerLine": {
+        "limit": 80,
+        "severity": "error"
+    },
+    // 样式块之间需要空行
+    "newlineAfterBlock": [
+        true, {
+            "severity": "error"
+        }
+    ],
+    // 无须关心属性顺序
+    "propertyOrdering": false,
+    // 不限制属性的使用
+    "propertyUnits": false,
+    // 属性选择器、class 选择器、id 选择器均可前缀指定特定元素
+    "qualifyingElement": {
+        "allowWithAttribute": true,
+        "allowWithClass": true,
+        "allowWithId": true
+    },
+    // 选择器不可以使用大写和下划线（`_`），但可以使用短横线(`-`)
+    "selectorNaming": {
+        "disallowUppercase": true,
+        "disallowUnderscore": true,
+        "disallowDash": false,
+        "severity": "error"
+    },
+    // 不可以在一行内设置多个属性
+    "singleLinePerProperty": {
+        "allowSingleLineRules": false,
+        "severity": "error"
+    },
+    // 不使用 18F Style Guide
+    "singleLinePerSelector": {
+        "style": "none"
+    },
+    // 属性名冒号后应有一个空格
+    "spaceAfterPropertyColon": {
+        "style": "one_space",
+        "severity": "error"
+    },
+    // 属性名后不应有空格
+    "spaceAfterPropertyName": {
+        "style": "no_space",
+        "severity": "error"
+    },
+    // 属性值后不应有空格
+    "spaceAfterPropertyValue": {
+        "style": "no_space",
+        "severity": "error"
+    },
+    // 感叹号前应有空格
+    "spaceAroundBang": {
+        "style": "before",
+        "severity": "error"
+    },
+    // 逗号后应有空格，也可以换行（即分多行书写同一属性的值）
+    "spaceAroundComma": {
+        "allowNewline": true,
+        "style": "after",
+        "severity": "error"
+    },
+    // 运算符（`+`、`-`、`*`、`/`、`=`）两端应各有一个空格
+    "spaceAroundOperator": {
+        "style": "both",
+        "severity": "error"
+    },
+    // 大括号前应有一个空格，不能换行书写
+    "spaceBeforeBrace": {
+        "style": "one_space",
+        "severity": "error"
+    },
+    // 左圆括号后、右圆括号前不应有空格
+    "spaceBetweenParens": {
+        "style": "no_space",
+        "severity": "error"
+    },
+    // 字符串使用双引号
+    "stringQuotes": {
+        "style": "double",
+        "severity": "error"
+    },
+    // 所有属性赋值以分号结尾
+    "trailingSemicolon": {
+        "severity": "error"
+    },
+    // URL 使用相对路径
+    "trailingWhitespace": {
+        "style": "relative",
+        "severity": "error"
+    },
+    // 不允许使用通用选择器（`*`）
+    "universalSelector": {
+        "severity": "error"
+    },
+    // URL 应使用引号包裹
+    "urlQuotes": {
+        "severity": "error"
+    },
+    // 无须关心在何处应使用变量
+    "variableValue": false,
+    // 属性值为 0 时，不跟随单位
+    "zeroUnit": {
+        "style": "no_unit",
+        "severity": "error"
+    }
+}
