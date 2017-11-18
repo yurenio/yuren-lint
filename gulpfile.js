@@ -8,8 +8,6 @@ let lesshint = require('gulp-lesshint')
 let coffee = require('gulp-coffee')
 let htmlLint = require('gulp-html-lint')
 
-gulp.task('default', ['html', 'css', 'js'])
-
 gulp.task('html', () => {
     return es.concat(
         gulp.src('./*.html')
@@ -23,7 +21,7 @@ gulp.task('html', () => {
     )
 })
 
-gulp.task('css', () => {
+gulp.task('less', () => {
     return es.concat(
         gulp.src('./src/less/*.less')
             // LessLint
@@ -38,7 +36,7 @@ gulp.task('css', () => {
     )
 })
 
-gulp.task('js', () => {
+gulp.task('coffee', () => {
     return es.concat(
         gulp.src('./node_modules/jquery/dist/jquery.js')
             .pipe(gulp.dest('./dest/')),
