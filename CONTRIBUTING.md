@@ -22,13 +22,14 @@
 - readme: README.md
 - contributing: CONTRIBUTING.md
 - gitignore: .gitignore
-- src: src finder and index.html
+- src: src finder
 - license: LICENSE
 - npm: package.json
 - gulp: gulpfile.js
 - less: less and lesshint
 - coffee: CoffeeScript and coffeelint
 - editor: .editorconfig
+- html: htmllint and .html file
 
 ### subject
 

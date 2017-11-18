@@ -6,8 +6,22 @@ let less = require('gulp-less')
 let es = require('event-stream')
 let lesshint = require('gulp-lesshint')
 let coffee = require('gulp-coffee')
+let htmlLint = require('gulp-html-lint')
 
-gulp.task('default', ['css', 'js'])
+gulp.task('default', ['html', 'css', 'js'])
+
+gulp.task('html', () => {
+    return es.concat(
+        gulp.src('./*.html')
+            // HTMLLint
+            .pipe(htmlLint({
+                htmllintrc: "./.htmllintrc",
+                useHtmllintrc: true
+            }))
+            .pipe(htmlLint.format())
+            .pipe(htmlLint.failOnError())
+    )
+})
 
 gulp.task('css', () => {
     return es.concat(
