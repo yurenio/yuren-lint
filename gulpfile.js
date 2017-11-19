@@ -56,7 +56,8 @@ gulp.task('coffee', () => {
             .pipe(gulp.dest('./dest/')),
         gulp.src('./src/coffee/*.coffee')
             // CoffeeLint
-            .pipe(coffeelint())
+            .pipe(coffeelint('./coffeelint.json'))
+            .pipe(coffeelint.reporter())
             .pipe(coffeelint.reporter('fail')) // 出现 Fail 时中断 Gulp Task
             // CoffeeScript to JavaScript
             .pipe(coffee())
