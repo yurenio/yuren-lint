@@ -43,6 +43,7 @@ gulp.task('js', () => {
             .pipe(eslint('./.eslintrc')) // 使用 `.eslintrc` 文件的配置
             .pipe(eslint.format())
             .pipe(eslint.failAfterError())
+            .pipe(gulp.dest('./dest/'))
     )
 })
 
