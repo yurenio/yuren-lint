@@ -1,0 +1,106 @@
+/*
+ * https://cn.eslint.org/docs/rules/
+ */
+{
+    "root": true,
+    "extends": "eslint:recommended", // 使用核心规则
+    "globals": {
+        "alert": false,
+        "$": false,
+        "console": false
+    },
+    "rules": { // 重写核心规则中需要变更的内容
+        "for-direction": 2, // 避免 for 出现死循环
+        "no-console": 1, // 在代码中使用 `console` 时，给出警告
+        "accessor-pairs": 1, // 当 getter/setter 没有成对出现在对象中时，给出警告
+        "curly": 2, // 要求代码块必须使用大括号
+        "dot-notation": 2, // 访问属性时使用点号 `.`
+        "eqeqeq": 2, // 必须使用 `===` 和 `!==`
+        "no-alert": 1, // 当使用了 `alert` 时，给出警告
+        "no-caller": 2, // 禁用 `caller` 或 `callee`
+        "no-else-return": 2, // 禁止在 `else` 前使用 `return`
+        "no-empty-function": 2, // 禁止出现空函数
+        "no-eq-null": 2, // 禁止与 `null` 进行比较
+        "no-eval": 2, // 禁用 `eval()`
+        "no-extend-native": 2, // 禁止扩展原生对象
+        "no-extra-bind": 2, // 禁止不必要的函数绑定
+        "no-extra-label": 2, // 禁用不必要的标签
+        "no-floating-decimal": 2, // 禁止浮点小数
+        "no-implicit-coercion": 2, // 禁止使用较短的符号实现类型转换
+        "no-implied-eval": 2, // 禁用隐式的 `eval()`
+        "no-iterator": 2, // 禁用迭代器
+        "no-labels": 2, // 禁用标签语句
+        "no-lone-blocks": 2, // 禁用不必要的嵌套块
+        "no-magic-numbers": 2, // 禁止使用魔术数字
+        "no-multi-spaces": 2, // 禁止多个空格
+        "no-multi-str": 2, // 禁止多行字符串
+        "no-new": 2, // 禁止使用 `new` 产生副作用
+        "no-new-func": 2, // 禁用 `Function` 构造函数
+        "no-new-wrappers": 2, // 禁止原始包装实例
+        "no-octal-escape": 2, // 禁止在字符串字面量中使用八进制转义序列
+        "no-param-reassign": 2, // 禁止对函数参数再赋值
+        "no-proto": 2, // 禁用 `__proto__`
+        "no-return-assign": 2, // 禁止在返回语句中赋值
+        "no-script-url": 2, // 禁用 Script URL
+        "no-self-compare": 2, // 禁止自身比较
+        "no-sequences": 2, // 不允许使用逗号操作符
+        "no-unmodified-loop-condition": 2, // 禁用一成不变的循环条件
+        "no-unused-expressions": 2, // 禁止未使用过的表达式
+        "no-useless-concat": 2, // 禁止没有必要的字符拼接
+        "no-void": 2, // 禁止使用 `void` 操作符
+        "no-label-var": 2, // 禁用与变量同名的标签
+        "no-shadow-restricted-names": 2, // 关键字不能被遮蔽
+        "array-bracket-spacing": 2, // 禁止在括号内使用空格
+        "block-spacing": [2, "never"], // 禁止在单行代码块中使用空格
+        "brace-style": 2, // 要求左大括号与控制语句或声明语句在同一行
+        "comma-spacing": 2, // 要求逗号前不加空格，逗号后加空格
+        "comma-style": 2, // 要求逗号在数组元素、对象属性或变量声明之后，且在同一行
+        "computed-property-spacing": 2, // 禁止在计算属性内使用空格
+        "eol-last": 2, // 要求在文件末尾保留一行空行
+        "func-call-spacing": 2, // 函数名与包裹参数的括号间不使用空格
+        "func-name-matching": 2, // 将函数赋值给变量或属性时，名字应相同
+        "indent": 2, // 统一使用 4 空格缩进
+        "key-spacing": 2, // 冒号前后只有一个空格，且前导无空格，后导有一个空格
+        "keyword-spacing": 2, // 关键字前后应各有一个空格
+        "linebreak-style": 2, // 要求使用 `\n` 换行
+        "max-len": 2, // 要求每行不超过 80 个字符，tab 宽度为 4 个字符
+        "max-statements-per-line": 2, // 要求每行最大允许 1 条语句
+        "new-cap": 2, // 要求构造函数首字母大写
+        "new-parens": 2, // 要求调用无参构造函数时带括号
+        "newline-per-chained-call": 2, // 要求方法链中每个调用都有一个换行符
+        "no-bitwise": 2, // 禁止使用位操作符
+        "no-lonely-if": 2, // 禁止 `if` 语句作为唯一语句出现在 `else` 语句块中
+        "no-mixed-operators": 2, // 禁止混合使用不同优先级的操作符
+        "no-multi-assign": 2, // 禁止使用链式声明赋值
+        "no-multiple-empty-lines": [2, {
+            "max": 2, // 代码中连续空行不超过 2 个
+            "maxEOF": 1 // 文件末尾的最大连续空行不超过 1 个
+        }],
+        "no-nested-ternary": 2, // 禁止使用嵌套的三元表达式
+        "no-new-object": 2, // 禁止使用 `Object` 构造函数
+        "no-tabs": 2, // 禁止使用 `\t`
+        "no-trailing-spaces": 2, // 禁用行尾空白
+        "no-whitespace-before-property": 2, // 禁止属性前有空白
+        "object-curly-newline": [2, "always"], // 要求花括号内有换行符
+        "object-curly-spacing": [2, "never"], // 不允许花括号中有空格
+        "object-property-newline": 2, // 强制将对象的属性放在不同的行上
+        "operator-linebreak": [2, "before"], // 要求把换行符放在操作符前面
+        "semi": [2, "never"], // 要求不使用行末分号
+        "space-before-blocks": 2, // 要求语句块之前使用一个空格
+        "space-before-function-paren": [2, "never"], // 禁止函数圆括号之前有一个空格
+        "space-in-parens": [2, "never"], // 禁止圆括号内的空格
+        "space-infix-ops": 2, // 要求中缀操作符周围有空格
+        "switch-colon-spacing": 2, // 要求 `switch` 中 `case` 冒号后有空格
+        "unicode-bom": 2, // 禁止使用 Unicode 字节顺序标记
+        "wrap-regex": 2, // 要求正则表达式被包裹起来
+        "arrow-body-style": 2, // 当箭头函数体的大括号是可以省略的，强制不使用它们
+        "arrow-parens": 2, // 要求箭头函数的参数使用圆括号
+        "arrow-spacing": 2, // 要求箭头函数的箭头之前或之后各有一个空格
+        "no-duplicate-imports": 2, // 禁止重复的 `imports`
+        "no-var": 1, // 当使用了 `var` 而不是 `let` 和 `const` 时，给出警告
+        "prefer-const": 1, // 当一个变量没有被改变过但不是使用 `const` 声明时，给出警告
+        "prefer-numeric-literals": 2, // 当使用 `parseInt()` 转换二进制、八进制、十六进制值时，必须给出基数
+        "prefer-rest-params": 2, // 要求可变参数使用扩展运算符
+        "prefer-spread": 2 // 要求使用扩展运算符而不是 `.apply()`
+    }
+}
