@@ -6,7 +6,7 @@ root = true
 # Widely Supported by Editors
 indent_style = space # 使用空格缩进
 indent_size = 4 # 缩进长度为 4 空格
-end_of_line = lf # 行末标识符为 `\r`
+end_of_line = lf # 行末标识符为 `\n`
 charset = utf-8 # 字符集 utf-8
 trim_trailing_whitespace = true # 删除行末空格
 insert_final_newline = true # 文末增加空行
