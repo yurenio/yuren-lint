@@ -1,14 +1,14 @@
 let gulp = require('gulp')
-let coffeelint = require('gulp-coffeelint')
 let es = require('event-stream')
-let lesshint = require('gulp-lesshint')
 let htmlLint = require('gulp-html-lint')
 let csslint = require('gulp-csslint')
 let eslint = require('gulp-eslint')
+let lesshint = require('gulp-lesshint')
+let coffeelint = require('gulp-coffeelint')
 
 gulp.task('html', () => {
     return es.concat(
-        gulp.src('./*.html')
+        gulp.src('./src/html/*.html')
             // HTMLLint
             .pipe(htmlLint({
                 htmllintrc: './.htmllintrc', // 使用 `.htmllintrc` 文件的配置
