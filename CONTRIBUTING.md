@@ -6,30 +6,14 @@
 
 ### type
 
-- feat：新 Feature
-- fix：修复 Bug
 - docs：只更新了文档
-- style：代码风格（不影响代码的变更）
-- refactor：重构（既没有修复 Bug 也没有新 Feature 的代码变更）
-- perf：性能优化（以性能优化为目的的代码变更）
-- test：测试（添加确实的测试或更正现有的测试）
+- style：代码风格（不影响代码效果的变更）
+- refactor：重构（有重大影响的变更）
 - chore：例行工作（对构建过程或辅助工具及第三方库的变更）
 
 ### scope
 
-指定提交更改的位置，当更改影响不止一个范围时，用 `*`
-
-- readme: README.md
-- contributing: CONTRIBUTING.md
-- gitignore: .gitignore
-- src: src finder
-- license: LICENSE
-- npm: package.json
-- gulp: gulpfile.js
-- less: less and lesshint
-- coffee: CoffeeScript and coffeelint
-- editor: .editorconfig
-- html: htmllint and .html file
+指定提交更改的文件名，当更改影响不止一个文件时，用 `*`
 
 ### subject
 
