@@ -37,7 +37,7 @@ npm install -g libname
 
 若有权限问题，请在上述命令前添加 `sudo` 后再执行。
 
-若安装速度较慢，可以使用 [cnpm](https://npm.taobao.org/)
+若安装速度较慢，可以使用 [cnpm](https://npm.taobao.org/) 。
 
 ### Coding
 
