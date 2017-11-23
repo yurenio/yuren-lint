@@ -1,3 +1,3 @@
-# YurenFE
+# yuren-lint
 
-Yuren FrontEnd Code Lints Config
+Yuren front-end code linter config file.
