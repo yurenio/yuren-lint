@@ -9,6 +9,7 @@ let coffee = require('gulp-coffee')
 let htmlLint = require('gulp-html-lint')
 let csslint = require('gulp-csslint')
 let eslint = require('gulp-eslint')
+let sourcemaps = require('gulp-sourcemaps')
 
 gulp.task('html', () => {
     return es.concat(
