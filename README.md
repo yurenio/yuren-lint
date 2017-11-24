@@ -10,13 +10,11 @@
 - [lesshint](https://github.com/lesshint/lesshint) .lesshintrc
 - [coffeelint](https://github.com/clutchski/coffeelint) coffeelint.json
 
-### htmlhint
-
 ## editor
 
-### .editorconfig
-
 推荐你使用 [VSCode](https://code.visualstudio.com/) 进行开发，若使用其他编辑器，请自行搜索相应插件。
+
+### .editorconfig
 
 请将配置文件 `.editorconfig` 置于项目根目录。
 
@@ -27,3 +25,11 @@
 - 若你使用 [Sublime](https://www.sublimetext.com/) ，需安装插件 [Editor​Config](https://packagecontrol.io/packages/EditorConfig)
 
 相关配置请查看 [EditorConfig](http://editorconfig.org/)
+
+### htmlhint
+
+请将配置文件 `.htmlhintrc` 置于项目根目录。
+
+- 若你使用 [VSCode](https://code.visualstudio.com/) ，需安装插件 [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
+- 若你使用 [Atom](https://atom.io/) ，需安装插件 [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
+- 若你使用 [Sublime](https://www.sublimetext.com/) ，需安装插件 [Sublime​Linter-contrib-htmlhint](https://packagecontrol.io/packages/SublimeLinter-contrib-htmlhint)
