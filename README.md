@@ -2,13 +2,13 @@
 
 ## config
 
-提供了以下第三方代码风格检查库的配置文件：
+提供了以下第三方代码风格检查库的配置：
 
-- [htmllint](https://github.com/htmllint/htmllint/) .htmllintrc
-- [csslint](https://github.com/CSSLint/csslint) csslintrc.json
-- [eslint](https://github.com/eslint/eslint) .eslintrc
-- [lesshint](https://github.com/lesshint/lesshint) .lesshintrc
-- [coffeelint](https://github.com/clutchski/coffeelint) coffeelint.json
+- [htmllint](#htmllint)
+- [csslint](#csslint)
+- [eslint](#eslint)
+- [lesshint](#lesshint)
+- [coffeelint](#coffeelint)
 
 ## editor
 
@@ -26,10 +26,12 @@
 
 相关配置请查看 [EditorConfig](http://editorconfig.org/)
 
-### htmlhint
+### htmllint
 
-请将配置文件 `.htmlhintrc` 置于项目根目录。
+请将配置文件 `.htmllintrc` 置于项目根目录。
 
-- 若你使用 [VSCode](https://code.visualstudio.com/) ，需安装插件 [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
-- 若你使用 [Atom](https://atom.io/) ，需安装插件 [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
-- 若你使用 [Sublime](https://www.sublimetext.com/) ，需安装插件 [Sublime​Linter-contrib-htmlhint](https://packagecontrol.io/packages/SublimeLinter-contrib-htmlhint)
+- 若你使用 [VSCode](https://code.visualstudio.com/) ，请使用 `gulp html`
+- 若你使用 [Atom](https://atom.io/) ，请使用 `gulp html`
+- 若你使用 [Sublime](https://www.sublimetext.com/) ，需安装插件 [SublimeLinter-contrib-htmllint](https://packagecontrol.io/packages/SublimeLinter-contrib-htmllint)
+
+相关配置请查看 [HTMLHint](http://htmlhint.com/)
