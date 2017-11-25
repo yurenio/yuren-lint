@@ -7,3 +7,6 @@
 |[HTMLHint](https://github.com/yaniswang/HTMLHint)|`.htmlhintrc`|
 |[CSSLint](https://github.com/CSSLint/csslint)|`.csslintrc`|
 |[stylelint](https://stylelint.io/)|`.stylelintrc`|
+|eslint||
+|lesslint||
+|coffeelint||
