@@ -1,0 +1,40 @@
+{
+    "ignore": [
+        "fallback-colors",
+        "bulletproof-font-face",
+        "font-faces",
+        "import",
+        "regex-selectors",
+        "overqualified-elements",
+        "duplicate-background-images",
+        "floats",
+        "font-sizes",
+        "ids",
+        "important",
+        "order-alphabetical",
+        "outline-none",
+        "qualified-headings",
+        "unique-headings"
+    ],
+    "warnings": [
+        "box-model",
+        "display-property-grouping",
+        "box-sizing",
+        "compatible-vendor-prefixes",
+        "gradients",
+        "vendor-prefix",
+        "text-indent",
+        "star-property-hack",
+        "underscore-property-hack",
+        "universal-selector",
+        "unqualified-attributes",
+        "shorthand"
+    ],
+    "errors": [
+        "duplicate-properties",
+        "empty-rules",
+        "known-properties",
+        "adjoining-classes",
+        "zero-units"
+    ]
+}
