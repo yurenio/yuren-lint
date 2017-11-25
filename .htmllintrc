@@ -1,8 +1,10 @@
 {
     "attr-bans": [],
-    "attr-name-style": false,
+    "attr-name-style": "dash",
     "attr-no-dup": true,
     "class-no-dup": true,
+    "doctype-first": true,
+    "doctype-html5": true,
     "id-class-no-ad": true,
     "id-class-style": "dash",
     "id-no-dup": true,
@@ -11,6 +13,7 @@
     "label-req-for": true,
     "tag-bans": [],
     "tag-close": true,
+    "tag-name-lowercase": true,
     "tag-self-close": "never",
     "title-no-dup": true
 }
