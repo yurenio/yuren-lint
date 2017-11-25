@@ -1,27 +1,15 @@
 {
-  "name": "yuren-lint",
-  "version": "0.5.0",
-  "description": "Yuren FrontEnd Code Lints Config",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": {
-    "name": "WenryXu",
-    "email": "wenryxu@outlook.com",
-    "url": "http://wenryxu.com"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "event-stream": "^3.3.4",
-    "gulp": "^3.9.1",
-    "gulp-coffeelint": "^0.6.0",
-    "gulp-eslint": "^4.0.0",
-    "gulp-html-lint": "0.0.2",
-    "gulp-lesshint": "^4.0.0",
-    "gulp-stylelint": "^5.0.0"
-  },
-  "dependencies": {
-    "chalk": "^2.3.0"
-  }
+    "name": "yuren-lint",
+    "version": "3.0.0",
+    "description": "Yuren FrontEnd Code Lints Config",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+      "name": "WenryXu",
+      "email": "wenryxu@outlook.com",
+      "url": "http://wenryxu.com"
+    },
+    "license": "MIT"
 }
