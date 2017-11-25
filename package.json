@@ -1,15 +1,15 @@
 {
-    "name": "yuren-lint",
-    "version": "3.0.0",
-    "description": "Yuren FrontEnd Code Lints Config",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": {
-      "name": "WenryXu",
-      "email": "wenryxu@outlook.com",
-      "url": "http://wenryxu.com"
-    },
-    "license": "MIT"
+  "name": "yuren-lint",
+  "version": "3.0.0",
+  "description": "Yuren FrontEnd Code Lints Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "WenryXu",
+    "email": "wenryxu@outlook.com",
+    "url": "http://wenryxu.com"
+  },
+  "license": "MIT"
 }
