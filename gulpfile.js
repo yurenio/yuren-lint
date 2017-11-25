@@ -1,7 +1,6 @@
 let gulp = require('gulp')
 let es = require('event-stream')
 let htmlLint = require('gulp-html-lint')
-let csslint = require('gulp-csslint')
 let eslint = require('gulp-eslint')
 let lesshint = require('gulp-lesshint')
 let coffeelint = require('gulp-coffeelint')
@@ -15,17 +14,6 @@ gulp.task('htmllint', () => {
             }))
             .pipe(htmlLint.format())
             .pipe(htmlLint.failOnError())
-    )
-})
-
-gulp.task('css', () => {
-    return es.concat(
-        gulp.src('**/*.css')
-            .pipe(csslint('./csslintrc.json'))
-            .pipe(csslint.formatter()),
-        gulp.src('**/*.css')
-            .pipe(csslint('./csslintrc.json'))
-            .pipe(csslint.failFormatter())
     )
 })
 

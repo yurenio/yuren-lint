@@ -1,5 +1,4 @@
 {
-    "rules-url": "https://github.com/htmllint/htmllint/wiki/Options",
     "attr-bans": [],
     "attr-no-dup": true,
     "class-no-dup": true,
