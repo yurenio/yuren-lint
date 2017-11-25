@@ -9,4 +9,7 @@
 |[stylelint](https://stylelint.io/)|`.stylelintrc`|
 |eslint||
 |lesslint||
+|scss-lint||
+|stylint||
 |coffeelint||
+|tslint||
