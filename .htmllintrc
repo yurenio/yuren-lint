@@ -2,6 +2,7 @@
     "attr-bans": [],
     "attr-name-style": "dash",
     "attr-no-dup": true,
+    "attr-no-unsafe-char": true,
     "class-no-dup": true,
     "doctype-first": true,
     "doctype-html5": true,
