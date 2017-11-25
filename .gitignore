@@ -116,4 +116,8 @@ typings/
 
 # Custom
 package-lock.json
-src/
+index.html
+css.css
+script.js
+less.less
+coffee.coffee
