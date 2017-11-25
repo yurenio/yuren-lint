@@ -6,36 +6,33 @@ let eslint = require('gulp-eslint')
 let lesshint = require('gulp-lesshint')
 let coffeelint = require('gulp-coffeelint')
 
-gulp.task('html', () => {
+gulp.task('htmllint', () => {
     return es.concat(
-        gulp.src('./src/html/*.html')
-            // HTMLLint
+        gulp.src('**/*.html')
             .pipe(htmlLint({
-                htmllintrc: './.htmllintrc', // 使用 `.htmllintrc` 文件的配置
+                htmllintrc: './.htmllintrc',
                 useHtmllintrc: true
             }))
             .pipe(htmlLint.format())
-            .pipe(htmlLint.failOnError()) // 出现 Error 时中断 Gulp Task
+            .pipe(htmlLint.failOnError())
     )
 })
 
 gulp.task('css', () => {
     return es.concat(
-        // CSSLint
-        gulp.src('./src/css/*.css')
-            .pipe(csslint('./csslintrc.json')) // 使用 `csslintrc.json` 文件的配置
-            .pipe(csslint.formatter()),
-        gulp.src('./src/css/*.css') // `formatter()` 与 `failFormatter()` 同时存在时，不会输出 Error 内容
+        gulp.src('**/*.css')
             .pipe(csslint('./csslintrc.json'))
-            .pipe(csslint.failFormatter()) // 出现 Error 时中断 Gulp Task
+            .pipe(csslint.formatter()),
+        gulp.src('**/*.css')
+            .pipe(csslint('./csslintrc.json'))
+            .pipe(csslint.failFormatter())
     )
 })
 
 gulp.task('js', () => {
     return es.concat(
-        // ESLint
-        gulp.src('./src/js/*.js')
-            .pipe(eslint('./.eslintrc')) // 使用 `.eslintrc` 文件的配置
+        gulp.src('**/*.js')
+            .pipe(eslint('./.eslintrc'))
             .pipe(eslint.format())
             .pipe(eslint.failAfterError())
     )
@@ -43,20 +40,18 @@ gulp.task('js', () => {
 
 gulp.task('less', () => {
     return es.concat(
-        gulp.src('./src/less/*.less')
-            // LessLint
-            .pipe(lesshint('./.lesshintrc')) // 使用 `.lesshintrc` 文件的配置
+        gulp.src('**/*.less')
+            .pipe(lesshint('./.lesshintrc'))
             .pipe(lesshint.reporter())
-            .pipe(lesshint.failOnError()) // 出现 Error 时中断 Gulp Task
+            .pipe(lesshint.failOnError())
     )
 })
 
 gulp.task('coffee', () => {
     return es.concat(
-        gulp.src('./src/coffee/*.coffee')
-            // CoffeeLint
+        gulp.src('**/*.coffee')
             .pipe(coffeelint('./coffeelint.json'))
             .pipe(coffeelint.reporter())
-            .pipe(coffeelint.reporter('fail')) // 出现 Fail 时中断 Gulp Task
+            .pipe(coffeelint.reporter('fail'))
     )
 })
