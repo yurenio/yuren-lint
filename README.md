@@ -13,3 +13,5 @@
 |stylint||
 |coffeelint||
 |tslint||
+|Pylint||
+|phplint||
