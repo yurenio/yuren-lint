@@ -5,6 +5,7 @@
     "class-no-dup": true,
     "doctype-first": true,
     "doctype-html5": true,
+    "head-req-title": true,
     "id-class-no-ad": true,
     "id-class-style": "dash",
     "id-no-dup": true,
