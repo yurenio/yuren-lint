@@ -1,5 +1,6 @@
 {
     "attr-bans": [],
+    "attr-name-style": false,
     "attr-no-dup": true,
     "class-no-dup": true,
     "id-class-no-ad": true,
