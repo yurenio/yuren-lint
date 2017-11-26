@@ -8,7 +8,7 @@
 |[CSSLint](https://github.com/CSSLint/csslint)|`.csslintrc`|
 |[stylelint](https://stylelint.io/)|`.stylelintrc`|
 |eslint||
-|lesslint||
+|[lesshint](https://github.com/lesshint/lesshint)|`.lesshintrc`|
 |scss-lint||
 |stylint||
 |coffeelint||
