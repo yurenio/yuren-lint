@@ -1,5 +1,4 @@
 {
-    "rules-url": "http://www.coffeelint.org/#options",
     "arrow_spacing": {
         "level": "error"
     },
