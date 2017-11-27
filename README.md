@@ -13,5 +13,3 @@
 |stylint||||
 |[CoffeeLint](http://www.coffeelint.org/)|`coffeelint.json`|[![](https://img.shields.io/badge/style-true-green.svg?label=plugin)](https://marketplace.visualstudio.com/items?itemName=slb235.vscode-coffeelint)|✅|
 |tslint||||
-|Pylint||||
-|phplint||||
