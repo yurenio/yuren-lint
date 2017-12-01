@@ -3,6 +3,7 @@
 |规范|配置文件|VSCode|
 |---|---|---|
 |[VSCode Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings)|`.vscode/setting.json`|![](https://img.shields.io/badge/style-true-green.svg?label=default)|
+|🏅[VSCodeBeautify](https://github.com/HookyQR/VSCodeBeautify)|`.jsbeautifyrc`|[![](https://img.shields.io/badge/style-true-green.svg?label=plugin)](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)|
 |🏅[EditorConfig](http://editorconfig.org/)|`.editorconfig`|[![](https://img.shields.io/badge/style-true-green.svg?label=plugin)](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)|
 |🏅[markdownlint](https://github.com/DavidAnson/markdownlint)|`.markdownlint.json`|[![](https://img.shields.io/badge/style-true-green.svg?label=plugin)](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)|
 |[htmllint](https://github.com/htmllint/htmllint)|`.htmllintrc`|![](https://img.shields.io/badge/style-false-red.svg?label=plugin)|
