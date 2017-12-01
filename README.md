@@ -13,4 +13,4 @@
 |[lesshint](https://github.com/lesshint/lesshint)|`.lesshintrc`|![](https://img.shields.io/badge/style-false-red.svg?label=plugin)|
 |[Stylint](https://simenb.github.io/stylint/)|`.stylintrc`|![](https://img.shields.io/badge/style-false-red.svg?label=plugin)|
 |[CoffeeLint](http://www.coffeelint.org/)|`coffeelint.json`|[![](https://img.shields.io/badge/style-true-green.svg?label=plugin)](https://marketplace.visualstudio.com/items?itemName=slb235.vscode-coffeelint)|
-|tslint|||
+|🚫[TSLint](https://palantir.github.io/tslint/)|`tsconfig.json`|[![](https://img.shields.io/badge/style-true-green.svg?label=plugin)](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)|
