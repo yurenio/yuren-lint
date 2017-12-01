@@ -8,7 +8,7 @@
 |[htmllint](https://github.com/htmllint/htmllint)|`.htmllintrc`|![](https://img.shields.io/badge/style-false-red.svg?label=plugin)|
 |🏅[HTMLHint](https://github.com/yaniswang/HTMLHint)|`.htmlhintrc`|[![](https://img.shields.io/badge/style-true-green.svg?label=plugin)](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)|
 |[CSSLint](https://github.com/CSSLint/csslint)|`.csslintrc`|![](https://img.shields.io/badge/style-false-red.svg?label=plugin)|
-|🏅[stylelint](https://stylelint.io/)|`.stylelintrc`||
+|🏅[stylelint](https://stylelint.io/)|`.stylelintrc`|[![](https://img.shields.io/badge/style-true-green.svg?label=plugin)](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)|
 |🏅[ESLint](http://eslint.cn/)|`.eslintrc`|[![](https://img.shields.io/badge/style-true-green.svg?label=plugin)](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)|
 |[lesshint](https://github.com/lesshint/lesshint)|`.lesshintrc`|![](https://img.shields.io/badge/style-false-red.svg?label=plugin)|
 |[Stylint](https://simenb.github.io/stylint/)|`.stylintrc`|![](https://img.shields.io/badge/style-false-red.svg?label=plugin)|
