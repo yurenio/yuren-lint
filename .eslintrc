@@ -1,6 +1,7 @@
 {
     "root": true,
     "extends": "eslint:recommended",
+    "parser": "babel-eslint",
     "rules": {
         "for-direction": 1,
         "no-console": 1,
@@ -36,7 +37,7 @@
         "newline-per-chained-call": 1,
         "no-bitwise": 1,
         "no-lonely-if": 2,
-        "no-mixed-operators": 2,
+        "no-mixed-operators": 1,
         "no-multiple-empty-lines": [2, {
             "max": 2,
             "maxEOF": 1
