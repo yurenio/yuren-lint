@@ -36,7 +36,7 @@
         "max-statements-per-line": 1,
         "newline-per-chained-call": 1,
         "no-bitwise": 1,
-        "no-lonely-if": 2,
+        "no-lonely-if": 0,
         "no-mixed-operators": 1,
         "no-multiple-empty-lines": [2, {
             "max": 2,
@@ -46,7 +46,7 @@
         "no-tabs": 2,
         "no-trailing-spaces": 2,
         "no-whitespace-before-property": 2,
-        "object-curly-newline": [2, "always"],
+        "object-curly-newline": 0,
         "object-curly-spacing": [2, "never"],
         "object-property-newline": 2,
         "operator-linebreak": [2, "before"],
@@ -65,6 +65,7 @@
         "prefer-const": 1,
         "prefer-numeric-literals": 1,
         "prefer-rest-params": 1,
-        "prefer-spread": 1
+        "prefer-spread": 1,
+        "no-self-assign": 1
     }
 }
